@@ -1,0 +1,18 @@
+
+/* 
+************配置************
+代码含敏感配置信息，注意保存
+ */
+
+
+let ltzfkey = ''; //蓝兔支付的商户密钥
+let ltzfmchid = ''; //蓝兔支付的商户号
+
+let ltzf_native_notify_url= 'https:/notify'; //支付成功后回调的地址
+let ltzf_refund_notify_url= 'https:/notify';  //退款成功后回调的地址
+
+exports.ltzfkey=ltzfkey;
+exports.ltzfmchid=ltzfmchid;
+exports.ltzf_native_notify_url=ltzf_native_notify_url;
+exports.ltzf_refund_notify_url=ltzf_refund_notify_url;
+
